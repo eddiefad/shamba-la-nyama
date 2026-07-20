@@ -16,11 +16,12 @@
           src="assets/logos/WhatsApp Image 2026-07-16 at 02.58.31.jpeg"
           alt="Shamba la Nyama Logo"
         />
+        <div class="menu-toggle" id="menuToggle">☰</div>
 
-        <ul>
+        <ul id="navLinks">
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="products.html">Products</a></li>
+          <li><a href="products.html" class="active">Products</a></li>
           <li><a href="services.html">Services</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
@@ -32,8 +33,17 @@
     <section class="products-page">
       <div class="product-item">
         <div class="product-image">
-          <img src="assets/images/OIP (1).webp" alt="Chicken" />
-        </div>
+
+    <img id="chickenImage"
+         src="assets/images/chicken3.jpg"
+         alt="Chicken">
+
+    <div class="gallery-buttons">
+        <button id="prevChicken">◀</button>
+        <button id="nextChicken">▶</button>
+    </div>
+
+</div>
 
         <div class="product-details">
           <h2>🐔 Chicken</h2>
@@ -62,7 +72,7 @@
 
       <div class="product-item reverse">
         <div class="product-image">
-          <img src="assets/images/R.jpg" alt="Goat" />
+          <img src="assets/images/goat1.jpg" alt="Goat" />
         </div>
 
         <div class="product-details">
@@ -88,7 +98,7 @@
 
       <div class="product-item">
         <div class="product-image">
-          <img src="assets/images/OIP (2).webp" alt="Pork" />
+          <img src="assets/images/pork2.jpg" alt="Pork" />
         </div>
 
         <div class="product-details">
@@ -171,5 +181,7 @@
 
       <p class="copyright">© 2026 Shamba La Nyama. All Rights Reserved.</p>
     </footer>
+     <button id="topBtn">↑</button>
+    <script src="js/script.js"></script>
   </body>
 </html>

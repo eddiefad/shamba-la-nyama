@@ -44,4 +44,155 @@
   .product-item.reverse {
     flex-direction: column;
   }
+
+  .bulk-order {
+    padding: 60px 20px;
+    margin: 40px 20px;
+  }
+
+  .bulk-order h2 {
+    font-size: 32px;
+  }
+
+  .about-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-section img {
+    margin-bottom: 20px;
+  }
+
+  .mvv-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .mvv-section img {
+    margin-bottom: 20px;
+  }
+
+  .contact-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-section img {
+    margin-bottom: 20px;
+  }
+
+  .why-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .product-details ul {
+    padding-left: 0;
+  }
+
+  .product-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-container ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .services {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .services img {
+    margin-bottom: 20px;
+  }
+
+  .service-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .service-item img {
+    margin-bottom: 20px;
+  }
+
+  .contact-form {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+  }
+
+  .contact-info {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-info div {
+    margin-bottom: 20px;
+  }
+
+  .contact-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .map-section {
+    padding: 40px 20px;
+  }
+
+  .map-section h2 {
+    font-size: 32px;
+  }
+
+  @media (max-width: 768px) {
+    nav {
+      flex-wrap: wrap;
+    }
+
+    .menu-toggle {
+      display: block;
+    }
+
+    .nav-links {
+      display: none;
+
+      position: absolute;
+
+      top: 80px;
+      left: 0;
+
+      width: 100%;
+
+      background: white;
+
+      flex-direction: column;
+
+      text-align: center;
+
+      padding: 20px 0;
+    }
+
+    .nav-links.active {
+      display: flex;
+    }
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .order-btn {
+    display: none;
+  }
 }
